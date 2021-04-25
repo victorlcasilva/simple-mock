@@ -1,0 +1,28 @@
+{
+  "name": "simple-mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Victor LCA Silva <victor.the008@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-semistandard": "15.0.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "env": {
+        "es2020": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "semistandard"
+    ],
+    "rules": {}
+}
